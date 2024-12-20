@@ -1,0 +1,13 @@
+,variavel,descrição,tipo,subtipo
+0,age,Idade do indivíduo,Quantitativa,Discreta
+1,gender,Sexo do indivíduo,Qualitativa,Nominal
+2,bmi,Índice de Massa Corporal,Quantitativa,Contínua
+3,physical_activity_level,Nível de atividade física,Qualitativa,Ordinal
+4,daily_calorie_intake,Ingestão diária de calorias (kcal),Quantitativa,Contínua
+5,diet_type,Tipo de dieta seguida pelo indivíduo,Qualitativa,Nominal
+6,family_history_obesity,Histórico familiar de obesidade,Qualitativa,Nominal
+7,hypertension,Presença de hipertensão,Qualitativa,Nominal
+8,diabetes,Presença de diabetes,Qualitativa,Nominal
+9,stress_level,Nível de estresse do indivíduo,Qualitativa,Ordinal
+10,sleep_duration,Duração média do sono (horas por noite),Quantitativa,Contínua
+11,obesity_level,Classificação do nível de obesidade,Qualitativa,Ordinal
