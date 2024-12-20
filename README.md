@@ -1,113 +1,37 @@
-# <Título do projeto>
+# Análise Exploratória dos Níveis de Obesidade
+<p align="center">
+    
+![Imagem do projeto](docs/assets/img/titulo_logo.png)
 
-Insira aqui um resumo do projeto que será construído. Tente apresentar uma justificativa para o projeto. É desejável que também se insira um [graphical abstract](https://www.elsevier.com/authors/tools-and-resources/visual-abstract).
+Este projeto tem como objetivo analisar os níveis de obesidade com base em fatores como hábitos alimentares, níveis de atividade física e outras características demográficas e comportamentais. Além da análise exploratória dos dados, será realizada uma modelagem preditiva para classificar os níveis de obesidade dos indivíduos a partir desses atributos. O objetivo é entender como diferentes variáveis, como alimentação, atividade física e fatores pessoais, impactam os níveis de obesidade e criar um modelo que possa prever o risco de obesidade em novas amostras com base nesses dados. Através dessa análise, busco gerar insights que podem ajudar em ações preventivas e estratégias de saúde pública.
+
+## Justificativa
+
+A análise e previsão dos níveis de obesidade é um desafio relevante para a saúde pública, dado o impacto significativo da obesidade em diversas doenças crônicas, como diabetes tipo 2, hipertensão e problemas cardiovasculares. Compreender os fatores que contribuem para o desenvolvimento da obesidade e a previsão de seus níveis pode fornecer informações importantes para a prevenção e o tratamento eficaz dessas enfermidades. Além disso, um modelo preditivo bem construído pode auxiliar na identificação precoce de indivíduos em risco, permitindo a implementação de intervenções preventivas mais eficazes.
+
+Neste projeto, a minha abordagem se concentrará em analisar como diferentes fatores, como hábitos alimentares e níveis de atividade física, influenciam os níveis de obesidade, utilizando técnicas de análise exploratória de dados e modelagem preditiva, incluindo:
+
+1. Quais variáveis têm maior impacto no nível de obesidade de uma pessoa? 
+2. Como podemos prever os níveis de obesidade com base nas características comportamentais e de saúde conhecidas? 
+3. Existem padrões ou grupos de risco específicos que podem ser utilizados para prever a tendência de obesidade em diferentes populações?
+
+## Metodologia
+
+O projeto será desenvolvido utilizando a metodologia CRISP-DM, seguindo os seguintes passos:
+
+1. Entendimento de negócio
+2. Entendimento de dados
+3. Preparação dos dados
+4. Modelagem
+
+O projeto também é dividido em duas entregas, a saber:
+
+1. **Análise Exploratória de Dados (EDA)**: entendimento das variáveis que influenciam o MPG e identificação de padrões nos dados através de hipóteses, visualizações e insights.
+2. **Análise comparativa de modelos**: construção de modelos de aprendizado de máquina para rpevisão de consumo, com métricas de desempenho para avaliação da performance.
+
+## Resultados Esperados
+
+Espero identificar as principais variáveis que influenciam os níveis de obesidade e desenvolver um modelo preditivo capaz de estimar os níveis de obesidade com base em hábitos alimentares e atividades físicas. Com isso, buscamos fornecer insights valiosos para profissionais de saúde e políticas públicas, permitindo a identificação precoce de indivíduos em risco e a criação de intervenções mais eficazes. Além disso, esperamos contribuir para uma melhor compreensão dos fatores que contribuem para a obesidade e como eles podem ser monitorados e gerenciados de maneira mais eficiente.
 
 ## Desenvolvedores
- - [Nome do desenvolvedor #1](url-do-github-do-desenvolvedor-#1)
- - [Nome do desenvolvedor #2](url-do-github-do-desenvolvedor-#2)
- - [Nome do desenvolvedor #3](url-do-github-do-desenvolvedor-#3)
- - [Nome do desenvolvedor #4](url-do-github-do-desenvolvedor-#4)
- - ...
-
----
-
-> **Nota**: todo o texto abaixo é somente para entendimento do usuário do template. Por favor remova-o quando for atualizar este `README.md`.
-
-## Funcionalidades
-
-Esse template foi inicialmente baseado no [template de ciência de dados do cookiecutter](https://drivendata.github.io/cookiecutter-data-science/), mas ao longo do tempo várias modificações foram sendo realizadas. Atualmente o template tem as seguintes características:
- - Utilização do arquivo `pyproject.toml` como centralizador de dependências;
- - Configuração para criação de aplicação `streamlit`;
- - Utilização de [jupyter notebooks](https://jupyter.org/) para arquivos de análise;
- - Documentação com o [mkdocs](https://www.mkdocs.org/) ([material design](https://squidfunk.github.io/mkdocs-material/) theme)
-
-## Instruções
-
-### Requisitos
-
-Para utilizar este template, você precisará de um ambiente com os seguintes softwares:
- - git
- - Python 3.8
- - Poetry `1.1.13` ou superior
-
-É aconselhável o uso do `pyenv` para o gerenciamento de versões do Python.
-
-### Iniciando um novo projeto
-
-Para iniciar um novo projeto você precisa ter instalado na sua máquina as aplicações citadas na seção anterior, depois disso basta:
-
-1. clicar no botão **Use this template** (ou "Usar este modelo").
-2. Digitar um nome para seu repositório e uma descrição opcional.
-3. Escolher a visibilidade do projeto (Publica ou privada).
-4. Clicar em **Create repository from template** (Criar repositório a partir do modelo).
-
-Pronto, acaba de criar um repositório a partir deste modelo. Para mais informações sobre o uso de templates, acesse a [documentação oficial](https://docs.github.com/pt/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
-
-
-### Contribuindo com um repositório já criado
-
-Depois de criar o repositório, para começar a modificá-lo e/ou contribuir com repositórios já criados,  você precisa cloná-lo. Para isso, siga os seguintes passos:
-
-1. Acima da lista de arquivos, clique no botão **Code** (em verde).
-2. Copie a URL para o repositório.
-    - Tente clonar utilizando uma chave **SSH**. Para isso, clique na aba **SSH** e em seguida clique no ícone de cópia.
-3. Abra o terminal.
-4. Altere o diretório de trabalho atual para o local que deseja ter o diretório clonado.
-5. Digite `git clone` e cole a URL que você copiou anteriormente:
-
-```
-git clone git@github.com:NOME-DE-USUARIO/REPOSITORIO.git
-```
-6. Pressione **Enter** para criar seu clone local.
-
-Proto, com isso você acaba de clonar um repositório. Para mais informações sobre a clonagem de arquivos, acesse a [documentação oficial](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository).
-
-Com o repositório clonado, você precisa navegar até a pasta local, usando o comando :
-
-```
-cd REPOSITORIO
-```
-
-Estando na pasta do repositório, basta instalar as dependências do projeto utilizando o comando:
-
-```
-poetry install
-```
-
-Ele irá instalar todas as dependências contidas no arquivo `pyproject.toml`. Depois disso basta ativar o ambiente virtual criado pelo Poetry utilizando o comando:
-
-```
-poetry shell
-```
-
-Para mais informações sobre os comandos do Poetry, visite a [documentação oficial](https://python-poetry.org/docs/).
-
-Para contribuir com um projeto, tente utilizar uma metodologia adequada. Utilize [este artigo](https://omadson.github.io/site/blog/2022/software-development-workflow/) para obter mais informações.
-
-
-### Organização de diretórios
-
-
-```
-.
-├── data/              # Diretório contendo todos os arquivos de dados
-│   ├── external/      # Arquivos de dados de fontes externas
-│   ├── interim/       # Arquivos de dados intermediários
-│   ├── processed/     # Arquivos de dados processados
-│   └── raw/           # Arquivos de dados originais, imutáveis
-├── docs/              # Documentação gerada através da biblioteca mkdocs
-├── models/            # Modelos treinados e serializados, predições ou resumos de modelos
-├── notebooks/         # Diretório contendo todos os notebooks utilizados nos passos
-├── references/        # Dicionários de dados, manuais e todo o material exploratório
-├── src/               # Código fonte utilizado nesse projeto
-│   ├── data/          # Classes e funções utilizadas para download e processamento de dados
-│   ├── deployment/    # Classes e funções utilizadas para implantação do modelo
-│   └── model/         # Classes e funções utilizadas para modelagem
-├── app.py             # Arquivo com o código da aplicação do streamlit
-├── Procfile           # Arquivo de configuração do heroku
-├── pyproject.toml     # Arquivo de dependências para reprodução do projeto
-├── poetry.lock        # Arquivo com sub-dependências do projeto principal
-├── README.md          # Informações gerais do projeto
-└── tasks.py           # Arquivo com funções para criação de tarefas utilizadas pelo invoke
-
-```
+ - [João Paulo Ferreira](https://github.com/joao-paulo-alt)
